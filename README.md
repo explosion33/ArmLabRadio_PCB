@@ -6,7 +6,7 @@ This is the hardware repo for the project, checkout
 
 [CC1200stm32](https://github.com/explosion33/CC1200stm32) for the embedded device code
 
-[ArmLabCC1200](https://github.com/explosion33/ArmLabCC1200) for Serial / I2C nteface libraries
+[ArmLabCC1200](https://github.com/explosion33/ArmLabCC1200) for Serial / I2C inteface libraries
 
 
 ## Other

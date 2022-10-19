@@ -2398,6 +2398,24 @@
     (pin "2" (uuid 34a3a3d5-ed0c-4ad9-bd65-db76e6ed5f91))
   )
 
+  (symbol (lib_id "power:GND") (at 233.68 105.664 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 2524f07a-7700-4c73-8c46-760211bff96a)
+    (property "Reference" "#PWR?" (id 0) (at 233.68 112.014 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (id 1) (at 233.68 110.744 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (id 2) (at 233.68 105.664 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 233.68 105.664 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2775fec8-bb88-45bf-9d05-ba333a67886b))
+  )
+
   (symbol (lib_id "Device:C") (at 114.3 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2756fc60-2708-49aa-bd62-5f0733cd937c)
@@ -3169,24 +3187,6 @@
     (pin "2" (uuid 06ac2144-3e14-4832-8352-3561622f3547))
   )
 
-  (symbol (lib_id "power:GND") (at 233.68 105.664 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid d46aa98e-59ee-4f35-bc16-4b1595766417)
-    (property "Reference" "#PWR017" (id 0) (at 233.68 112.014 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (id 1) (at 233.68 110.744 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (id 2) (at 233.68 105.664 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 233.68 105.664 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 848c37a2-2fc9-42c3-a4c6-859f6c5071f7))
-  )
-
   (symbol (lib_id "Device:C") (at 153.67 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d5ed7e92-5f8e-4506-ac6e-81324a519cec)
@@ -3571,9 +3571,6 @@
     (path "/36c08fbc-99aa-4a46-b68d-4a16244c40ac"
       (reference "#PWR016") (unit 1) (value "GND") (footprint "")
     )
-    (path "/d46aa98e-59ee-4f35-bc16-4b1595766417"
-      (reference "#PWR017") (unit 1) (value "GND") (footprint "")
-    )
     (path "/bb4877d6-feca-4896-8099-6026d6af6681"
       (reference "#PWR018") (unit 1) (value "VBUS") (footprint "")
     )
@@ -3678,6 +3675,9 @@
     )
     (path "/dfcafdf4-f213-4518-865d-ab9ee2b88e54/f4476226-1ccf-4227-8dd1-1a5ff4b30b22"
       (reference "#PWR052") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/2524f07a-7700-4c73-8c46-760211bff96a"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/b8602e9e-5ce2-40ec-a716-bf65c8696dd5"
       (reference "C1") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")

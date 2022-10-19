@@ -5521,7 +5521,7 @@
   (gr_text "CC1200 Radio Module" (at 203.962 101.346) (layer "B.SilkS") (tstamp 0583495c-ca66-48eb-a559-fe42abfac6de)
     (effects (font (size 2 2) (thickness 0.3)) (justify mirror))
   )
-  (gr_text "v2.0" (at 218.44 105.918) (layer "B.SilkS") (tstamp 2bda0f3e-7ef5-4e98-922c-cf014286a81b)
+  (gr_text "v1.1" (at 218.44 105.918) (layer "B.SilkS") (tstamp 2bda0f3e-7ef5-4e98-922c-cf014286a81b)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "Armstrong Labs" (at 208.026 105.918) (layer "B.SilkS") (tstamp 9264142e-a71b-4ec8-916a-0866f0b87eff)

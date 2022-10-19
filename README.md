@@ -1,6 +1,8 @@
 # ArmLabRadio_PCB
 KiCad files for CC1200 and STM32 based 2m / 70cm radio
 
+![v1.1](images/v1.1.png)
+
 ## Software
 This is the hardware repo for the project, checkout
 

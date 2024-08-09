@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "CP2102")(type "KiCad")(uri "${KIPRJMOD}/CP2102")(options "")(descr ""))
+  (lib (name "usbc")(type "KiCad")(uri "${KIPRJMOD}/usbc")(options "")(descr ""))
+)

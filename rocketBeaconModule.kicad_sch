@@ -9287,7 +9287,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_Sunlord_SWRB1207S"
 			(at 99.06 175.26 0)
 			(effects
 				(font
@@ -12988,7 +12988,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C124378"
+		(property "LCSC Part" ""
 			(at 29.21 158.75 0)
 			(effects
 				(font
@@ -13653,7 +13653,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C124378"
+		(property "LCSC Part" "C132510"
 			(at 33.02 68.58 0)
 			(effects
 				(font

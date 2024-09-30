@@ -1,4 +1,6 @@
 (fp_lib_table
+  (version 7)
   (lib (name "CP2102")(type "KiCad")(uri "${KIPRJMOD}/CP2102")(options "")(descr ""))
   (lib (name "usbc")(type "KiCad")(uri "${KIPRJMOD}/usbc")(options "")(descr ""))
+  (lib (name "SKY65366")(type "KiCad")(uri "${KIPRJMOD}/SKY65366")(options "")(descr ""))
 )

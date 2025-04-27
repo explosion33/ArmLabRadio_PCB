@@ -2045,6 +2045,12 @@
 		(uuid "0ebd455c-7370-4b8f-814e-2d385878f7af")
 	)
 	(junction
+		(at 201.93 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "205849a1-2617-4035-943b-59d9396e8de3")
+	)
+	(junction
 		(at 34.29 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2055,6 +2061,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29c89453-06b4-4bea-897a-2d0c05ee7f9e")
+	)
+	(junction
+		(at 227.33 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a02e587-33d0-484a-9415-c75c9e3d1f6f")
 	)
 	(junction
 		(at 59.69 116.84)
@@ -2087,6 +2099,12 @@
 		(uuid "6961a359-edf6-46ab-ba48-ad85b502d1f2")
 	)
 	(junction
+		(at 208.28 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70b0c011-3efa-4d88-8e9a-fe8541c15e53")
+	)
+	(junction
 		(at 147.32 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2109,12 +2127,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8539d061-6659-47a5-854a-5e87b33d83ea")
-	)
-	(junction
-		(at 199.39 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "88473018-6fd3-4fe9-b0c4-85dbc4148f15")
 	)
 	(junction
 		(at 147.32 90.17)
@@ -2306,6 +2318,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 140.97) (xy 227.33 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ff213e1-da91-4130-9a19-bcf4be2e35f7")
+	)
+	(wire
+		(pts
 			(xy 177.8 167.64) (xy 177.8 166.37)
 		)
 		(stroke
@@ -2396,16 +2418,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 148.59) (xy 208.28 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21879068-5d29-4f34-8068-60302c4f29e5")
-	)
-	(wire
-		(pts
 			(xy 120.65 165.1) (xy 120.65 167.64)
 		)
 		(stroke
@@ -2426,13 +2438,23 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 148.59) (xy 199.39 152.4)
+			(xy 201.93 148.59) (xy 201.93 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "24393791-69f3-4103-ad7d-4162c3bbb9f0")
+	)
+	(wire
+		(pts
+			(xy 180.34 120.65) (xy 177.8 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "248ea59c-77e2-45c0-a6dd-2f4cb2eadb91")
 	)
 	(wire
 		(pts
@@ -2546,6 +2568,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 148.59) (xy 208.28 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42218bd5-0c8e-40f0-8be7-1ed652c3f10f")
+	)
+	(wire
+		(pts
 			(xy 132.08 82.55) (xy 147.32 82.55)
 		)
 		(stroke
@@ -2603,6 +2635,16 @@
 			(type default)
 		)
 		(uuid "4f69b937-7303-4ac0-bc59-ef92ce1a51d7")
+	)
+	(wire
+		(pts
+			(xy 227.33 140.97) (xy 227.33 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5059cbad-81c2-47e2-9084-4972ba23ff77")
 	)
 	(wire
 		(pts
@@ -2726,6 +2768,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 148.59) (xy 254 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a9889cd-03c3-4aa2-bef9-f338f87457bf")
+	)
+	(wire
+		(pts
 			(xy 60.96 97.79) (xy 64.77 97.79)
 		)
 		(stroke
@@ -2816,7 +2868,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 139.7) (xy 196.85 139.7)
+			(xy 226.06 134.62) (xy 200.66 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2926,6 +2978,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 140.97) (xy 208.28 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d73e1e6-3cef-4307-ba59-8a83b6c1cee7")
+	)
+	(wire
+		(pts
 			(xy 147.32 93.98) (xy 147.32 100.33)
 		)
 		(stroke
@@ -2976,13 +3038,23 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 139.7) (xy 196.85 120.65)
+			(xy 200.66 134.62) (xy 200.66 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "94e36430-0662-4201-bf4f-e8c7aeb858f2")
+	)
+	(wire
+		(pts
+			(xy 208.28 140.97) (xy 208.28 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bcf2e69-f33a-42e6-bd0a-29d6b80b07aa")
 	)
 	(wire
 		(pts
@@ -3006,16 +3078,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 148.59) (xy 199.39 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a39dc765-012f-49da-b687-ba3135ca1769")
-	)
-	(wire
-		(pts
 			(xy 59.69 139.7) (xy 59.69 140.97)
 		)
 		(stroke
@@ -3033,6 +3095,16 @@
 			(type default)
 		)
 		(uuid "a56470fb-ed1c-4e87-991d-4afd77c4a9e4")
+	)
+	(wire
+		(pts
+			(xy 223.52 148.59) (xy 227.33 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6ba8bbc-5c84-4e99-89bf-1c138f5541fa")
 	)
 	(wire
 		(pts
@@ -3163,16 +3235,6 @@
 			(type default)
 		)
 		(uuid "bf0e71db-3ca0-4285-b4d2-0205c755d02b")
-	)
-	(wire
-		(pts
-			(xy 213.36 148.59) (xy 245.11 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1e267b5-73b4-4072-a053-dea0d2502e01")
 	)
 	(wire
 		(pts
@@ -3366,7 +3428,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 120.65) (xy 196.85 120.65)
+			(xy 193.04 120.65) (xy 200.66 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3386,6 +3448,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 148.59) (xy 201.93 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e00ea8ab-378b-4132-bca1-74568c797db4")
+	)
+	(wire
+		(pts
 			(xy 45.72 124.46) (xy 64.77 124.46)
 		)
 		(stroke
@@ -3393,6 +3465,16 @@
 			(type default)
 		)
 		(uuid "e0619116-98c0-46a7-80b5-15154a298658")
+	)
+	(wire
+		(pts
+			(xy 227.33 148.59) (xy 232.41 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e08f3f62-5dcc-446d-923a-6b0128475f3a")
 	)
 	(wire
 		(pts
@@ -3476,7 +3558,17 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 160.02) (xy 199.39 162.56)
+			(xy 208.28 148.59) (xy 210.82 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ece6e88b-5184-4cb3-8c22-77623f309003")
+	)
+	(wire
+		(pts
+			(xy 201.93 160.02) (xy 201.93 162.56)
 		)
 		(stroke
 			(width 0)
@@ -3564,7 +3656,37 @@
 		)
 		(uuid "ffce3488-55de-4269-a806-355ed3a7f58f")
 	)
-	(text "TODO:\nVerify TX vs RX topology + matching\n    Switch from seperate TX/RX to OG coupled RX / TX (do a bit of research first to which is better)\nAdd amp bypass switch\nAdd amp\n    Add DPOT + OPAMP Buffer for Gate Voltage\nAdd RTD (temp sensor)"
+	(text "*Check with Ethan that we are not using external oscillator,\nif so this should be fine just tied to ground, but reference\nschematic looks different."
+		(exclude_from_sim no)
+		(at 123.698 69.85 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "1e840906-9e40-4d65-b08f-02504ba5b1bb")
+	)
+	(text "Changed C31 and C36 to 20 pF from 10 pF each based on \nC9010 crystal needing 15 pF load capacitance overall,\nand using equation C1=C2=2*(C_L-C_stray), approximating\nC_stray as 5 pF."
+		(exclude_from_sim no)
+		(at 202.438 83.312 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "692c4498-f603-4634-9e6d-63de0949a01f")
+	)
+	(text "1.8 nF -> 1.5 nF (changed from RS)"
+		(exclude_from_sim no)
+		(at 107.696 104.902 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+		)
+		(uuid "80bcfede-1e3f-4014-b17a-7c857d067907")
+	)
+	(text "TODO:\nVerify TX vs RX topology + matching (DONE)\n    Switch from seperate TX/RX to OG coupled RX / TX (do a bit of research first to which is better)\nAdd amp bypass switch\nAdd amp\n    Add DPOT + OPAMP Buffer for Gate Voltage\nAdd RTD (temp sensor)"
 		(exclude_from_sim no)
 		(at 268.732 114.046 0)
 		(effects
@@ -3574,8 +3696,18 @@
 		)
 		(uuid "bf62f89e-7ba1-4ac0-9cdc-eda5ef24c45e")
 	)
+	(text "*Don't know if this capacitor should connect here,\ndepends on if we are using TRX_SW pin on CC1200 \nand if we are or aren't coupling the LNA and PA pins."
+		(exclude_from_sim no)
+		(at 178.308 172.72 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "c52b579e-846b-4047-9e54-48f93bf9e671")
+	)
 	(label "TX"
-		(at 231.14 148.59 0)
+		(at 254 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3597,7 +3729,7 @@
 		(uuid "3c4e1996-a891-4cb0-b519-028e901a7a05")
 	)
 	(label "RX"
-		(at 222.25 139.7 0)
+		(at 223.52 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3975,7 +4107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2004071033_TDK-CGA2B2X7R1C473KT0Y0F_C508865.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588884015487602688"
 			(at 138.43 90.17 0)
 			(effects
 				(font
@@ -3993,7 +4125,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C508865"
+		(property "LCSC" "C272875"
 			(at 138.43 90.17 0)
 			(effects
 				(font
@@ -4795,7 +4927,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 163.83 107.95 0)
 			(effects
 				(font
@@ -4864,7 +4996,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "20pF"
 			(at 156.21 88.9 0)
 			(effects
 				(font
@@ -4882,7 +5014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811061736_Walsin-Tech-Corp-0402N100J500CT_C301961.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707210038886400"
 			(at 154.94 86.36 0)
 			(effects
 				(font
@@ -4900,7 +5032,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C32949"
+		(property "LCSC" "C1554"
 			(at 154.94 86.36 0)
 			(effects
 				(font
@@ -4941,7 +5073,7 @@
 				)
 			)
 		)
-		(property "Value" "1.8nF"
+		(property "Value" "1.5nF"
 			(at 113.03 100.33 90)
 			(effects
 				(font
@@ -4958,7 +5090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191621_Walsin-Tech-Corp-0402B182K500CT_C152808.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588898745487904768"
 			(at 109.22 101.6 0)
 			(effects
 				(font
@@ -4976,7 +5108,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C162192"
+		(property "LCSC" "C107022"
 			(at 109.22 101.6 0)
 			(effects
 				(font
@@ -5034,7 +5166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2004071033_TDK-CGA2B2X7R1C473KT0Y0F_C508865.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588884015487602688"
 			(at 118.11 93.98 0)
 			(effects
 				(font
@@ -5052,7 +5184,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C508865"
+		(property "LCSC" "C272875"
 			(at 118.11 93.98 0)
 			(effects
 				(font
@@ -5180,7 +5312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2004071033_TDK-CGA2B2X7R1C473KT0Y0F_C508865.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588884015487602688"
 			(at 34.29 123.19 0)
 			(effects
 				(font
@@ -5198,7 +5330,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C508865"
+		(property "LCSC" "C272875"
 			(at 34.29 123.19 0)
 			(effects
 				(font
@@ -5240,7 +5372,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "20pF"
 			(at 180.34 88.9 0)
 			(effects
 				(font
@@ -5258,7 +5390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811061736_Walsin-Tech-Corp-0402N100J500CT_C301961.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707210038886400"
 			(at 179.07 86.36 0)
 			(effects
 				(font
@@ -5276,7 +5408,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C32949"
+		(property "LCSC" "C1554"
 			(at 179.07 86.36 0)
 			(effects
 				(font
@@ -5317,7 +5449,7 @@
 				)
 			)
 		)
-		(property "Value" "22nH"
+		(property "Value" "43nH"
 			(at 194.31 146.05 0)
 			(effects
 				(font
@@ -5325,7 +5457,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 191.77 148.59 0)
 			(effects
 				(font
@@ -5334,7 +5466,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811081613_Murata-Electronics-LQG15HS22NJ02D_C12670.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588900775359885313"
 			(at 191.77 148.59 0)
 			(effects
 				(font
@@ -5352,7 +5484,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C12670"
+		(property "LCSC" "C167478"
 			(at 191.77 148.59 0)
 			(effects
 				(font
@@ -5412,7 +5544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2004071033_TDK-CGA2B2X7R1C473KT0Y0F_C508865.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588884015487602688"
 			(at 119.38 109.22 0)
 			(effects
 				(font
@@ -5430,7 +5562,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C508865"
+		(property "LCSC" "C272875"
 			(at 119.38 109.22 0)
 			(effects
 				(font
@@ -5508,7 +5640,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C126492"
+		(property "LCSC" "C126492"
 			(at 128.27 161.29 0)
 			(effects
 				(font
@@ -5566,7 +5698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810241229_YAGEO-CC0402CRNPO9BN5R1_C281761.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588932327812567040"
 			(at 162.56 97.79 0)
 			(effects
 				(font
@@ -5584,7 +5716,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C281761"
+		(property "LCSC" "C60220"
 			(at 162.56 97.79 0)
 			(effects
 				(font
@@ -5703,7 +5835,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 59.69 137.16 0)
 			(effects
 				(font
@@ -5712,7 +5844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF5602TCE_C25796.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705929912410112"
 			(at 59.69 137.16 0)
 			(effects
 				(font
@@ -5730,7 +5862,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25796"
+		(property "LCSC" "C25796"
 			(at 59.69 137.16 0)
 			(effects
 				(font
@@ -5788,7 +5920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2004071033_TDK-CGA2B2X7R1C473KT0Y0F_C508865.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588884015487602688"
 			(at 128.27 82.55 0)
 			(effects
 				(font
@@ -5806,7 +5938,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C508865"
+		(property "LCSC" "C272875"
 			(at 128.27 82.55 0)
 			(effects
 				(font
@@ -6020,7 +6152,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C15195"
+		(property "LCSC" "C15195"
 			(at 111.76 161.29 0)
 			(effects
 				(font
@@ -6148,7 +6280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2004071033_TDK-CGA2B2X7R1C473KT0Y0F_C508865.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588884015487602688"
 			(at 19.05 91.44 0)
 			(effects
 				(font
@@ -6166,7 +6298,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C508865"
+		(property "LCSC" "C272875"
 			(at 19.05 91.44 0)
 			(effects
 				(font
@@ -6224,7 +6356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2004071033_TDK-CGA2B2X7R1C473KT0Y0F_C508865.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588884015487602688"
 			(at 138.43 100.33 0)
 			(effects
 				(font
@@ -6242,7 +6374,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C508865"
+		(property "LCSC" "C272875"
 			(at 138.43 100.33 0)
 			(effects
 				(font
@@ -6425,7 +6557,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 163.83 130.81 0)
 			(effects
 				(font
@@ -6452,7 +6584,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C12669"
+		(property "LCSC" "C12669"
 			(at 163.83 130.81 0)
 			(effects
 				(font
@@ -6510,7 +6642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811081723_Murata-Electronics-GJM1555C1H2R2BB01D_C88886.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588893633165086720"
 			(at 165.1 158.75 0)
 			(effects
 				(font
@@ -6528,7 +6660,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C159806"
+		(property "LCSC" "C325452"
 			(at 165.1 158.75 0)
 			(effects
 				(font
@@ -6588,7 +6720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2004071033_TDK-CGA2B2X7R1C473KT0Y0F_C508865.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588884015487602688"
 			(at 36.83 76.2 0)
 			(effects
 				(font
@@ -6606,7 +6738,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C508865"
+		(property "LCSC" "C272875"
 			(at 36.83 76.2 0)
 			(effects
 				(font
@@ -6730,7 +6862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810241229_YAGEO-CC0402CRNPO9BN5R1_C281761.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588932327812567040"
 			(at 163.83 120.65 0)
 			(effects
 				(font
@@ -6748,7 +6880,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C281761"
+		(property "LCSC" "C60220"
 			(at 163.83 120.65 0)
 			(effects
 				(font
@@ -6799,7 +6931,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 111.76 135.89 0)
 			(effects
 				(font
@@ -6808,7 +6940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811081511_Murata-Electronics-LQG15HS56NJ02D_C162544.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588893991747637248"
 			(at 111.76 135.89 0)
 			(effects
 				(font
@@ -6826,7 +6958,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C167484"
+		(property "LCSC" "C167482"
 			(at 111.76 135.89 0)
 			(effects
 				(font
@@ -6852,7 +6984,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 210.82 148.59 90)
+		(at 234.95 148.59 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6860,7 +6992,7 @@
 		(dnp no)
 		(uuid "aabdf76e-e2c4-470a-ae20-0d13464d82dc")
 		(property "Reference" "R13"
-			(at 212.852 144.78 90)
+			(at 236.982 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6869,7 +7001,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 212.09 146.558 90)
+			(at 236.22 146.558 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6878,7 +7010,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 210.82 148.59 0)
+			(at 234.95 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6887,7 +7019,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF5602TCE_C25796.pdf"
-			(at 210.82 148.59 0)
+			(at 234.95 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6896,7 +7028,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.82 148.59 0)
+			(at 234.95 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6905,7 +7037,7 @@
 			)
 		)
 		(property "LCSC Part" "C138289"
-			(at 210.82 148.59 0)
+			(at 234.95 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6930,7 +7062,7 @@
 	)
 	(symbol
 		(lib_id "pspice:INDUCTOR")
-		(at 184.15 120.65 0)
+		(at 186.69 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6938,7 +7070,7 @@
 		(dnp no)
 		(uuid "abd5c9ea-fbe4-4535-8f56-519a03280959")
 		(property "Reference" "L6"
-			(at 185.42 120.65 90)
+			(at 184.912 117.856 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6947,7 +7079,7 @@
 			)
 		)
 		(property "Value" "15nH"
-			(at 182.88 120.65 90)
+			(at 192.024 117.856 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6955,8 +7087,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 184.15 120.65 0)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 186.69 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6964,8 +7096,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811081610_Murata-Electronics-LQG15HS15NJ02D_C86059.pdf"
-			(at 184.15 120.65 0)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8576892646796808192"
+			(at 186.69 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6974,7 +7106,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 184.15 120.65 0)
+			(at 186.69 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6982,8 +7114,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C27143"
-			(at 184.15 120.65 0)
+		(property "LCSC" "C94079"
+			(at 186.69 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7058,7 +7190,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C9010"
+		(property "LCSC" "C9010"
 			(at 168.91 82.55 0)
 			(effects
 				(font
@@ -7124,7 +7256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810241229_YAGEO-CC0402CRNPO9BN5R1_C281761.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588932327812567040"
 			(at 177.8 162.56 0)
 			(effects
 				(font
@@ -7142,7 +7274,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C281761"
+		(property "LCSC" "C60220"
 			(at 177.8 162.56 0)
 			(effects
 				(font
@@ -7252,7 +7384,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18k"
+		(property "Value" "18"
 			(at 113.03 151.13 0)
 			(effects
 				(font
@@ -7261,7 +7393,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 111.76 149.86 0)
 			(effects
 				(font
@@ -7270,7 +7402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF180JTCE_C25084.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590912706407325696"
 			(at 111.76 149.86 0)
 			(effects
 				(font
@@ -7288,7 +7420,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25084"
+		(property "LCSC" "C2929991"
 			(at 111.76 149.86 0)
 			(effects
 				(font
@@ -7307,6 +7439,82 @@
 			(project "rocketBeaconModule"
 				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35/dfcafdf4-f213-4518-865d-ab9ee2b88e54"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pspice:INDUCTOR")
+		(at 217.17 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc7e7e57-4656-4439-b8fd-5611594a6551")
+		(property "Reference" "L8"
+			(at 213.36 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22nH"
+			(at 219.71 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 217.17 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586176760756490240"
+			(at 217.17 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C86129"
+			(at 217.17 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ef37838-33f6-4739-b408-5eca082178b9")
+		)
+		(pin "2"
+			(uuid "cf821d10-3172-4ab3-b0a1-531b1cffa6f2")
+		)
+		(instances
+			(project "rocketBeaconModule"
+				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35/dfcafdf4-f213-4518-865d-ab9ee2b88e54"
+					(reference "L8")
 					(unit 1)
 				)
 			)
@@ -7348,7 +7556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Tdk-CGA2B2X7R1C473KT0Y0F/C508865"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707311415758848"
 			(at 34.29 93.98 0)
 			(effects
 				(font
@@ -7366,7 +7574,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C16772"
+		(property "LCSC" "C16772"
 			(at 34.29 93.98 0)
 			(effects
 				(font
@@ -7576,7 +7784,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C15195"
+		(property "LCSC" "C15195"
 			(at 106.68 113.03 0)
 			(effects
 				(font
@@ -8006,7 +8214,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 199.39 156.21 0)
+		(at 201.93 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8014,7 +8222,7 @@
 		(dnp no)
 		(uuid "e18010d2-b009-44c6-8dba-4826f6648835")
 		(property "Reference" "C37"
-			(at 200.66 153.67 0)
+			(at 203.2 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8023,7 +8231,7 @@
 			)
 		)
 		(property "Value" "6.2pF"
-			(at 200.66 158.75 0)
+			(at 203.2 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8032,7 +8240,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 200.3552 160.02 0)
+			(at 202.8952 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8040,8 +8248,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_Murata-Electronics-GJM1555C1H6R2CB01D_C415542.pdf"
-			(at 199.39 156.21 0)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588934545617375232"
+			(at 201.93 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8050,7 +8258,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 199.39 156.21 0)
+			(at 201.93 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8058,8 +8266,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C325456"
-			(at 199.39 156.21 0)
+		(property "LCSC" "C41744"
+			(at 201.93 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8109,7 +8317,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 149.86 114.3 0)
 			(effects
 				(font
@@ -8118,7 +8326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811081511_Murata-Electronics-LQG15HS56NJ02D_C162544.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588893991747637248"
 			(at 149.86 114.3 0)
 			(effects
 				(font
@@ -8136,7 +8344,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C167484"
+		(property "LCSC" "C167482"
 			(at 149.86 114.3 0)
 			(effects
 				(font
@@ -8185,7 +8393,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 165.1 148.59 0)
 			(effects
 				(font
@@ -8194,7 +8402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811081610_Murata-Electronics-LQG15HS15NJ02D_C86059.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8576892646796808192"
 			(at 165.1 148.59 0)
 			(effects
 				(font
@@ -8212,7 +8420,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C27143"
+		(property "LCSC" "C94079"
 			(at 165.1 148.59 0)
 			(effects
 				(font
@@ -8270,7 +8478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810231022_Samsung-Electro-Mechanics-CL05C390JB5NNNC_C86288.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588881906691944448"
 			(at 144.78 148.59 0)
 			(effects
 				(font
@@ -8288,7 +8496,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C86288"
+		(property "LCSC" "C106223"
 			(at 144.78 148.59 0)
 			(effects
 				(font
@@ -8348,7 +8556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_Walsin-Tech-Corp-MT15N560J500CT_C335543.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707249018585088"
 			(at 128.27 149.86 0)
 			(effects
 				(font
@@ -8366,7 +8574,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C335543"
+		(property "LCSC" "C1572"
 			(at 128.27 149.86 0)
 			(effects
 				(font
@@ -8426,7 +8634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2004071033_TDK-CGA2B2X7R1C473KT0Y0F_C508865.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588884015487602688"
 			(at 45.72 132.08 0)
 			(effects
 				(font
@@ -8444,7 +8652,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C508865"
+		(property "LCSC" "C272875"
 			(at 45.72 132.08 0)
 			(effects
 				(font
@@ -8463,6 +8671,84 @@
 			(project "rocketBeaconModule"
 				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35/dfcafdf4-f213-4518-865d-ab9ee2b88e54"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 217.17 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e62d2621-fa3c-45b0-b3d3-40499e8e5919")
+		(property "Reference" "C14"
+			(at 215.138 139.446 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DNM"
+			(at 223.012 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 220.98 140.0048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588934545617375232"
+			(at 217.17 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 217.17 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eaf15f21-2e1a-4ae8-a859-9afc70922aad")
+		)
+		(pin "2"
+			(uuid "30f79462-0993-4507-a976-ffcc5fb25c6f")
+		)
+		(instances
+			(project "rocketBeaconModule"
+				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35/dfcafdf4-f213-4518-865d-ab9ee2b88e54"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -8535,7 +8821,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 199.39 162.56 0)
+		(at 201.93 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8544,7 +8830,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4476226-1ccf-4227-8dd1-1a5ff4b30b22")
 		(property "Reference" "#PWR052"
-			(at 199.39 168.91 0)
+			(at 201.93 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8553,7 +8839,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 199.3901 166.37 90)
+			(at 201.9301 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8563,7 +8849,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 162.56 0)
+			(at 201.93 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8572,7 +8858,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 162.56 0)
+			(at 201.93 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8581,7 +8867,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 199.39 162.56 0)
+			(at 201.93 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)

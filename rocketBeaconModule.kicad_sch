@@ -4515,12 +4515,12 @@
 		(uuid "742f2481-77d1-4e50-b80d-55e4c19af9ec")
 	)
 	(no_connect
-		(at 151.13 76.2)
-		(uuid "84da8a17-607f-46a5-9d4b-90e26f0981b4")
-	)
-	(no_connect
 		(at 267.208 62.992)
 		(uuid "86d00606-749f-4a31-919f-c08bee6b900a")
+	)
+	(no_connect
+		(at 118.11 83.82)
+		(uuid "9b7a75f6-0b4b-446b-9f23-93aba0f446e7")
 	)
 	(no_connect
 		(at 151.13 114.3)
@@ -4649,16 +4649,6 @@
 			(type dash)
 		)
 		(uuid "0e182a66-bf1a-4e5c-878e-9d5a289056b0")
-	)
-	(wire
-		(pts
-			(xy 118.11 83.82) (xy 116.84 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fe4ffc9-5461-4141-80be-f9497bcdc256")
 	)
 	(wire
 		(pts
@@ -4862,16 +4852,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 140.97) (xy 144.78 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24896794-2347-4b7d-bf7a-c7a56867e2a6")
-	)
-	(wire
-		(pts
 			(xy 88.9 34.29) (xy 76.2 34.29)
 		)
 		(stroke
@@ -4949,26 +4929,6 @@
 			(type default)
 		)
 		(uuid "2fb1c33b-5783-4f05-a3f4-69d3d4c5020c")
-	)
-	(wire
-		(pts
-			(xy 147.32 140.97) (xy 152.4 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30a398b5-465a-469d-9b7c-e3dd8c52d4ce")
-	)
-	(wire
-		(pts
-			(xy 116.84 85.09) (xy 115.57 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31e3ebab-f65a-44ee-a665-cb9cdd00720e")
 	)
 	(wire
 		(pts
@@ -5469,16 +5429,6 @@
 			(type dash)
 		)
 		(uuid "71c7d0e0-ee03-49e7-862b-9f9f1c8bdc2f")
-	)
-	(wire
-		(pts
-			(xy 116.84 83.82) (xy 116.84 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71eeaf43-6e83-41be-bc8d-d777955d0f34")
 	)
 	(wire
 		(pts
@@ -6612,17 +6562,6 @@
 		)
 		(uuid "890ef174-d654-4d72-84ab-f7583ca4fe76")
 	)
-	(label "FVPC"
-		(at 147.32 140.97 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8d2b853e-10f1-4881-b5ec-ce9b3bb7477e")
-	)
 	(label "NRST"
 		(at 20.574 73.66 0)
 		(fields_autoplaced yes)
@@ -6699,17 +6638,6 @@
 			(justify right bottom)
 		)
 		(uuid "c6046b59-45cf-46a9-b5c8-b64644d450da")
-	)
-	(label "FVPC"
-		(at 144.78 140.97 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c8863a0e-af81-4ffe-9a54-33f1d9ccee53")
 	)
 	(label "RX"
 		(at 158.496 101.6 180)
@@ -6887,7 +6815,7 @@
 			)
 		)
 	)
-	(global_label "VCTL1"
+	(global_label "VCTL"
 		(shape input)
 		(at 115.57 81.28 180)
 		(fields_autoplaced yes)
@@ -6899,7 +6827,7 @@
 		)
 		(uuid "25f5e411-a517-4800-967d-2f3f70c4bdff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.021 81.28 0)
+			(at 108.2305 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6944,28 +6872,6 @@
 		(uuid "3d035637-26b2-43c8-92de-7f99a27fa950")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 104.2996 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VCTL2"
-		(shape input)
-		(at 115.57 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4e999d7d-2c23-48e9-b10b-93557a667626")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.021 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7085,9 +6991,9 @@
 			)
 		)
 	)
-	(global_label "FEM_VPC"
+	(global_label "THERMISTORADC"
 		(shape input)
-		(at 152.4 140.97 0)
+		(at 151.13 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7095,9 +7001,9 @@
 			)
 			(justify left)
 		)
-		(uuid "ebee897f-a934-485a-8b99-6a9bd797d3fb")
+		(uuid "eaa06e20-b51c-4c8d-8204-5bd65c5e43c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.6704 140.97 0)
+			(at 169.2947 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8443,71 +8349,6 @@
 			(project "rocketBeaconModule"
 				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 137.16 140.97 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3c642e54-a178-4733-b9d5-96c0c1062c25")
-		(property "Reference" "#PWR059"
-			(at 140.97 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 133.35 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1809f622-3da9-487f-8a32-d3d89969282f")
-		)
-		(instances
-			(project "rocketBeaconModule"
-				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35"
-					(reference "#PWR059")
 					(unit 1)
 				)
 			)

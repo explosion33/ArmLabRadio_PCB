@@ -117,7 +117,7 @@
 				)
 			)
 		)
-		(symbol "Connector:Conn_01x06_Male"
+		(symbol "Connector:Conn_01x05_Pin"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -131,8 +131,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x06_Male"
-				(at 0 -10.16 0)
+			(property "Value" "Conn_01x05_Pin"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -157,13 +157,21 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x05, script generated"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "ki_keywords" "connector"
@@ -184,19 +192,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x06_Male_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -7.62) (xy 0.8636 -7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "Conn_01x05_Pin_1_1"
 				(polyline
 					(pts
 						(xy 1.27 -5.08) (xy 0.8636 -5.08)
@@ -255,17 +251,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(rectangle
@@ -406,24 +391,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -7.62 180)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3149,6 +3116,102 @@
 				)
 			)
 		)
+		(symbol "PWR_FLAG_1"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_1_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "TYPE-C-31-M-12:TYPE-C-31-M-12"
 			(pin_names
 				(offset 1.016)
@@ -3555,6 +3618,126 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "VBUS_1"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VBUS_1_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -4495,6 +4678,10 @@
 		(uuid "36786b6f-485f-4579-8031-232b4197dc74")
 	)
 	(no_connect
+		(at 151.13 106.68)
+		(uuid "39af1634-1b08-448b-b60b-dff0eee1fb8a")
+	)
+	(no_connect
 		(at 240.03 114.808)
 		(uuid "42bb1513-725f-49a7-999a-bcdf1b7e8d7b")
 	)
@@ -4521,6 +4708,10 @@
 	(no_connect
 		(at 240.03 130.048)
 		(uuid "a990fb7e-8eb0-445b-b4fd-5376d68770b5")
+	)
+	(no_connect
+		(at 151.13 104.14)
+		(uuid "aad31cfd-5291-47d3-8c3d-a4053fd7699d")
 	)
 	(no_connect
 		(at 240.03 132.588)
@@ -7168,6 +7359,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 101.6 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "004270c4-472e-4591-81d8-a9a8bcba60a6")
+		(property "Reference" "C7"
+			(at 105.41 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 105.41 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 102.5652 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680"
+			(at 101.6 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 101.6 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3356e2e9-abcc-4842-a670-359476072074")
+		)
+		(pin "2"
+			(uuid "0b1e4be0-c306-4256-a2c6-83a75380eef5")
+		)
+		(instances
+			(project "rocketBeaconModule"
+				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+BATT")
 		(at 22.098 181.102 90)
 		(unit 1)
@@ -7405,7 +7675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680"
 			(at 76.2 27.94 0)
 			(effects
 				(font
@@ -7423,7 +7693,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C307331"
+		(property "LCSC" "C1525"
 			(at 76.2 27.94 0)
 			(effects
 				(font
@@ -7513,6 +7783,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 114.3 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08701427-3bc2-4671-b477-bd659640388b")
+		(property "Reference" "C8"
+			(at 118.11 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 118.11 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 115.2652 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680"
+			(at 114.3 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 114.3 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e17e6c1f-16d1-4e4c-8558-eec3baf771b4")
+		)
+		(pin "2"
+			(uuid "b0d2bd86-59c5-4879-8cc4-be1d234cfe2b")
+		)
+		(instances
+			(project "rocketBeaconModule"
+				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 250.444 31.242 90)
 		(unit 1)
@@ -7580,6 +7929,7 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 238.252 149.352 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7587,7 +7937,7 @@
 		(dnp no)
 		(uuid "0ce93c00-e125-4297-8f4f-84288d9bed20")
 		(property "Reference" "C1"
-			(at 232.918 149.352 0)
+			(at 243.586 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7596,7 +7946,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 232.41 151.13 0)
+			(at 244.094 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7604,8 +7954,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 239.2172 153.162 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 237.2868 153.162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7613,7 +7963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707315714920448"
 			(at 238.252 149.352 0)
 			(effects
 				(font
@@ -7631,7 +7981,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C71631"
+		(property "LCSC" "C23733"
 			(at 238.252 149.352 0)
 			(effects
 				(font
@@ -7891,7 +8241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586175838752948224"
 			(at 173.99 20.32 0)
 			(effects
 				(font
@@ -7909,7 +8259,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C85831"
+		(property "LCSC" "C85831"
 			(at 173.99 20.32 0)
 			(effects
 				(font
@@ -7928,85 +8278,6 @@
 			(project "rocketBeaconModule"
 				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35"
 					(reference "FB1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 114.3 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2756fc60-2708-49aa-bd62-5f0733cd937c")
-		(property "Reference" "C8"
-			(at 118.11 26.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 118.11 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 115.2652 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 114.3 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C307331"
-			(at 114.3 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d39317d3-a3ec-4d9b-96d5-42d137d0db5f")
-		)
-		(pin "2"
-			(uuid "11274c4f-d88b-4fc2-95ea-5c939e777fc9")
-		)
-		(instances
-			(project "rocketBeaconModule"
-				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35"
-					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -8113,7 +8384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588943817571909632"
 			(at 111.252 50.8 0)
 			(effects
 				(font
@@ -8131,7 +8402,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25906"
+		(property "LCSC" "C274895"
 			(at 111.252 50.8 0)
 			(effects
 				(font
@@ -8150,85 +8421,6 @@
 			(project "rocketBeaconModule"
 				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 101.6 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d3c7986-11cb-4165-8526-7028b90cd235")
-		(property "Reference" "C7"
-			(at 105.41 26.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 105.41 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 102.5652 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C307331"
-			(at 101.6 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "81a2b819-5bd9-4fb0-b4cd-ae8e6bf4ce72")
-		)
-		(pin "2"
-			(uuid "143794ad-ba55-4daa-b053-565bb5baf6de")
-		)
-		(instances
-			(project "rocketBeaconModule"
-				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35"
-					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -8374,10 +8566,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "393e743e-5a03-4ba4-88de-3362b4d2b347")
 		(property "Reference" "R10"
-			(at 258.572 26.5262 90)
+			(at 258.572 27.686 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8385,7 +8576,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 258.572 29.0631 90)
+			(at 258.572 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8401,7 +8592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705924167974912"
 			(at 258.572 31.242 0)
 			(effects
 				(font
@@ -8419,7 +8610,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C11702"
+		(property "LCSC" "C11702"
 			(at 258.572 31.242 0)
 			(effects
 				(font
@@ -8610,7 +8801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705924167974912"
 			(at 264.922 21.336 0)
 			(effects
 				(font
@@ -8628,7 +8819,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C11702"
+		(property "LCSC" "C11702"
 			(at 264.922 21.336 0)
 			(effects
 				(font
@@ -8752,7 +8943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588881912315830272"
 			(at 256.286 21.336 0)
 			(effects
 				(font
@@ -8770,7 +8961,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5160717"
+		(property "LCSC" "C130722"
 			(at 256.286 21.336 0)
 			(effects
 				(font
@@ -8789,6 +8980,73 @@
 			(project "rocketBeaconModule"
 				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VBUS_1")
+		(lib_id "power:VBUS")
+		(at 278.13 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45187fdf-beb9-4d66-9a98-95a21d1877a3")
+		(property "Reference" "#PWR020"
+			(at 278.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 278.13 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 278.13 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "412b421e-a6a0-4b07-bd48-27c648b7b92a")
+		)
+		(instances
+			(project ""
+				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -9033,6 +9291,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 180.34 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e658db3-2f93-46a8-b66f-612f313d88e1")
+		(property "Reference" "C12"
+			(at 184.15 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 184.15 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 181.3052 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707174974914560"
+			(at 180.34 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 180.34 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ce11050-c093-44cb-abc3-fcec6eb868f0")
+		)
+		(pin "2"
+			(uuid "21cc8337-83fb-40dd-96bd-f17a752aee15")
+		)
+		(instances
+			(project "rocketBeaconModule"
+				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 21.59 172.72 90)
 		(unit 1)
@@ -9134,7 +9471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586178550172540928"
 			(at 119.38 125.73 0)
 			(effects
 				(font
@@ -9152,7 +9489,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C12530"
+		(property "LCSC" "C12530"
 			(at 119.38 125.73 0)
 			(effects
 				(font
@@ -9475,7 +9812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588879072148017152"
 			(at 86.36 72.39 0)
 			(effects
 				(font
@@ -9493,7 +9830,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C13738"
+		(property "LCSC" "C13738"
 			(at 86.36 72.39 0)
 			(effects
 				(font
@@ -9923,85 +10260,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 88.9 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72cdf4fd-9360-4d95-8639-187324712daa")
-		(property "Reference" "C5"
-			(at 92.71 26.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 92.71 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 89.8652 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C307331"
-			(at 88.9 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5c7e13b3-2c18-47e5-a9f8-5b4623cc69eb")
-		)
-		(pin "2"
-			(uuid "4c6eca1b-840b-43c4-aa2c-d56ce6f9034a")
-		)
-		(instances
-			(project "rocketBeaconModule"
-				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 258.572 35.56 90)
 		(unit 1)
@@ -10011,7 +10269,7 @@
 		(dnp no)
 		(uuid "7394b906-5319-4a57-9128-bb3791fe67a5")
 		(property "Reference" "R11"
-			(at 258.572 30.8442 90)
+			(at 258.572 37.592 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10019,7 +10277,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 258.572 33.3811 90)
+			(at 258.572 39.116 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10035,7 +10293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705924167974912"
 			(at 258.572 35.56 0)
 			(effects
 				(font
@@ -10303,7 +10561,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 64.4652 31.75 0)
 			(effects
 				(font
@@ -10312,7 +10570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590907276196720640"
 			(at 63.5 27.94 0)
 			(effects
 				(font
@@ -10330,7 +10588,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "c"
+		(property "LCSC" "C7472949"
 			(at 63.5 27.94 0)
 			(effects
 				(font
@@ -10455,7 +10713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588943817571909632"
 			(at 278.13 70.612 0)
 			(effects
 				(font
@@ -10473,7 +10731,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25906"
+		(property "LCSC" "C274895"
 			(at 278.13 70.612 0)
 			(effects
 				(font
@@ -10629,7 +10887,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x06_Male")
+		(lib_id "Connector:Conn_01x05_Pin")
 		(at 29.21 158.75 0)
 		(mirror y)
 		(unit 1)
@@ -10674,16 +10932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 29.21 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
+		(property "Description" "Generic connector, single row, 01x05, script generated"
 			(at 29.21 158.75 0)
 			(effects
 				(font
@@ -10706,9 +10955,6 @@
 		)
 		(pin "5"
 			(uuid "31a0cba6-790d-4591-b7b1-d7fa3c4caca2")
-		)
-		(pin "6"
-			(uuid "d9703b8f-07fd-4586-9ef9-dd033cfbd46b")
 		)
 		(instances
 			(project "rocketBeaconModule"
@@ -10950,7 +11196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.everlight.com.cn/wp-content/plugins/ItemRelationship/product_files/pdf/16-213-BHC-AN1P2-3T.pdf"
 			(at 25.4 118.745 0)
 			(effects
 				(font
@@ -10968,7 +11214,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C131223"
+		(property "LCSC" "C131223"
 			(at 25.4 118.745 0)
 			(effects
 				(font
@@ -10987,85 +11233,6 @@
 			(project "rocketBeaconModule"
 				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 180.34 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae779989-c2b5-4acb-be79-65c3f1e9b4f4")
-		(property "Reference" "C12"
-			(at 184.15 25.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 184.15 27.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 181.3052 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 180.34 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 180.34 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C52923"
-			(at 180.34 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a53bdc15-cee0-4b8e-9815-28e6677d43f2")
-		)
-		(pin "2"
-			(uuid "2380fadb-dd2d-4c56-9b3a-410423c7ef55")
-		)
-		(instances
-			(project "rocketBeaconModule"
-				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35"
-					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -11106,7 +11273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588943817571909632"
 			(at 216.916 57.912 0)
 			(effects
 				(font
@@ -11124,7 +11291,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25906"
+		(property "LCSC" "C274895"
 			(at 216.916 57.912 0)
 			(effects
 				(font
@@ -11184,7 +11351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588905349529415680"
 			(at 33.02 68.58 0)
 			(effects
 				(font
@@ -11202,7 +11369,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C132510"
+		(property "LCSC" "C132510"
 			(at 33.02 68.58 0)
 			(effects
 				(font
@@ -11252,10 +11419,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b5cc4621-5c1a-4afb-9f11-cc3834b8f2ad")
 		(property "Reference" "R7"
-			(at 33.02 117.2042 90)
+			(at 33.02 123.952 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11263,7 +11429,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 33.02 119.7411 90)
+			(at 33.02 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11279,7 +11445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705924167974912"
 			(at 33.02 121.92 0)
 			(effects
 				(font
@@ -11297,7 +11463,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C11702"
+		(property "LCSC" "C11702"
 			(at 33.02 121.92 0)
 			(effects
 				(font
@@ -11453,6 +11619,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 88.9 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c33cd1bf-70c4-4705-82b0-97e7e0c1e4fd")
+		(property "Reference" "C5"
+			(at 92.71 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 92.71 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 89.8652 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680"
+			(at 88.9 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 88.9 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ac4ec24-4447-4452-b5eb-151953183689")
+		)
+		(pin "2"
+			(uuid "41424db1-17b3-4a73-9eae-432cd0dc4807")
+		)
+		(instances
+			(project "rocketBeaconModule"
+				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 266.192 35.56 180)
 		(unit 1)
@@ -11462,7 +11707,7 @@
 		(dnp no)
 		(uuid "c6d74fcb-4e34-43ec-951e-a3d1edc4105d")
 		(property "Reference" "D5"
-			(at 259.588 33.528 0)
+			(at 266.7 33.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11486,7 +11731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588881912315830272"
 			(at 266.192 35.56 0)
 			(effects
 				(font
@@ -11504,7 +11749,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C130722"
+		(property "LCSC" "C130722"
 			(at 266.192 35.56 0)
 			(effects
 				(font
@@ -11565,7 +11810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707174974914560"
 			(at 165.1 26.67 0)
 			(effects
 				(font
@@ -11583,7 +11828,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C52923"
+		(property "LCSC" "C52923"
 			(at 165.1 26.67 0)
 			(effects
 				(font
@@ -11794,7 +12039,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C15195"
+		(property "LCSC" "C15195"
 			(at 153.67 26.67 0)
 			(effects
 				(font
@@ -11895,7 +12140,7 @@
 		(dnp no)
 		(uuid "d6b55b0c-4b42-46b6-922e-1441efbf4679")
 		(property "Reference" "D4"
-			(at 259.588 29.21 0)
+			(at 266.7 28.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11937,7 +12182,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C136765"
+		(property "LCSC" "C136765"
 			(at 266.192 31.242 0)
 			(effects
 				(font
@@ -11969,10 +12214,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d76cf829-7c13-4e27-9ea5-83a28f3d5c5b")
 		(property "Reference" "C3"
-			(at 82.55 82.5499 0)
+			(at 81.026 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11981,7 +12225,7 @@
 			)
 		)
 		(property "Value" "10pF"
-			(at 82.55 85.0899 0)
+			(at 81.026 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11998,7 +12242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707322534723585"
 			(at 78.74 83.82 0)
 			(effects
 				(font
@@ -12016,7 +12260,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C32949"
+		(property "LCSC" "C32949"
 			(at 78.74 83.82 0)
 			(effects
 				(font
@@ -12041,34 +12285,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 95.25 83.82 0)
+		(lib_name "PWR_FLAG_1")
+		(lib_id "power:PWR_FLAG")
+		(at 278.13 53.34 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d8440ba0-7fad-42fc-af14-72fc28b37475")
-		(property "Reference" "C6"
-			(at 97.79 82.804 0)
+		(uuid "d8d19e96-a4bf-4306-ae19-1ad4013b783f")
+		(property "Reference" "#FLG06"
+			(at 278.13 55.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "10pF"
-			(at 97.79 85.344 0)
+		(property "Value" "PWR_FLAG"
+			(at 278.13 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 96.2152 87.63 0)
+		(property "Footprint" ""
+			(at 278.13 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12077,7 +12321,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 83.82 0)
+			(at 278.13 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12085,17 +12329,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 95.25 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C32949"
-			(at 95.25 83.82 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 278.13 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12104,15 +12339,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d370fb67-0de5-4383-af33-0c99d06b94a1")
-		)
-		(pin "2"
-			(uuid "adb0ee07-1692-462d-8aca-57d0b180ed8b")
+			(uuid "b215db58-899f-4bf8-becc-b2e434f732ba")
 		)
 		(instances
-			(project "rocketBeaconModule"
+			(project ""
 				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35"
-					(reference "C6")
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -12154,7 +12386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8554627388281098240"
 			(at 245.872 149.352 0)
 			(effects
 				(font
@@ -12172,7 +12404,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C307331"
+		(property "LCSC" "C307331"
 			(at 245.872 149.352 0)
 			(effects
 				(font
@@ -12294,7 +12526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588881912315830272"
 			(at 25.4 121.92 0)
 			(effects
 				(font
@@ -12312,7 +12544,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C130722"
+		(property "LCSC" "C130722"
 			(at 25.4 121.92 0)
 			(effects
 				(font
@@ -12828,10 +13060,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ef5bd356-6916-4dc7-b967-3f8a270dc921")
 		(property "Reference" "R6"
-			(at 33.02 114.0292 90)
+			(at 33.02 115.062 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12855,7 +13086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705924167974912"
 			(at 33.02 118.745 0)
 			(effects
 				(font
@@ -12873,7 +13104,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C11702"
+		(property "LCSC" "C11702"
 			(at 33.02 118.745 0)
 			(effects
 				(font
@@ -12964,6 +13195,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 95.25 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f179891d-fadd-41ac-9dbe-48912f63d393")
+		(property "Reference" "C6"
+			(at 97.536 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10pF"
+			(at 97.536 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 96.2152 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707322534723585"
+			(at 95.25 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C32949"
+			(at 95.25 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e75447a3-02dd-459f-858d-64001f5afa7f")
+		)
+		(pin "2"
+			(uuid "a07f6c3e-18a8-4fac-a5ef-cd813bf8a31b")
+		)
+		(instances
+			(project "rocketBeaconModule"
+				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 269.24 137.668 270)
 		(unit 1)
@@ -12997,7 +13306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588943817571909632"
 			(at 269.24 137.668 0)
 			(effects
 				(font
@@ -13015,7 +13324,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25906"
+		(property "LCSC" "C274895"
 			(at 269.24 137.668 0)
 			(effects
 				(font

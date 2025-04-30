@@ -5047,6 +5047,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "pspice:INDUCTOR"
 			(pin_numbers hide)
 			(pin_names
@@ -5264,6 +5360,12 @@
 		(uuid "33268016-a171-45ac-9010-9c10a5f1cffe")
 	)
 	(junction
+		(at 346.71 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cfc3c37-2950-441d-8dc2-9f383c19f127")
+	)
+	(junction
 		(at 166.37 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5286,6 +5388,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5aa0a7f7-f979-49df-a75e-7d634c60eedf")
+	)
+	(junction
+		(at 361.95 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e9c1744-c923-43fa-8fe4-3f7c9b78d74a")
 	)
 	(junction
 		(at 300.99 86.36)
@@ -5811,7 +5919,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 142.24) (xy 353.06 142.24)
+			(xy 340.36 142.24) (xy 346.71 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6658,6 +6766,16 @@
 			(type default)
 		)
 		(uuid "9a28ea6c-531c-4431-a9b3-d7e0e7ee4c25")
+	)
+	(wire
+		(pts
+			(xy 346.71 142.24) (xy 353.06 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b4d1f88-9949-43e9-8deb-c43325ccee17")
 	)
 	(wire
 		(pts
@@ -8628,7 +8746,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "198fe219-2b1b-420d-b585-48e214a407ea")
-		(property "Reference" "DPOT"
+		(property "Reference" "U8"
 			(at 276.86 83.82 0)
 			(effects
 				(font
@@ -8646,7 +8764,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MCP41010:SOIC127P599X175-8N"
 			(at 290.83 96.52 0)
 			(effects
 				(font
@@ -8665,6 +8783,15 @@
 			)
 		)
 		(property "Description" "Single Digital Potentiometer, SPI interface, 256 taps, 10 kohm"
+			(at 290.83 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C136395"
 			(at 290.83 96.52 0)
 			(effects
 				(font
@@ -8700,7 +8827,7 @@
 		(instances
 			(project ""
 				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35/dfcafdf4-f213-4518-865d-ab9ee2b88e54"
-					(reference "DPOT")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -9049,6 +9176,73 @@
 			(project "rocketBeaconModule"
 				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35/dfcafdf4-f213-4518-865d-ab9ee2b88e54"
 					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 361.95 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "328f18fa-b995-487c-a199-4027892767be")
+		(property "Reference" "#FLG05"
+			(at 360.045 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 358.14 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 361.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 361.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 361.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96b8dd17-68c9-4236-8155-3d6866856138")
+		)
+		(instances
+			(project ""
+				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35/dfcafdf4-f213-4518-865d-ab9ee2b88e54"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -11686,6 +11880,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 346.71 142.24 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87801dc6-3fc5-4a6b-a618-5827e2f1620a")
+		(property "Reference" "#FLG04"
+			(at 346.71 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 346.964 145.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 346.71 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 346.71 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95c8a09b-40e0-4702-9893-e0a3d9dbb390")
+		)
+		(instances
+			(project ""
+				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35/dfcafdf4-f213-4518-865d-ab9ee2b88e54"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 168.91 91.44 0)
 		(unit 1)
@@ -12285,7 +12544,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RA07H4047M:RA07H4047M101"
+		(property "Footprint" "RA07H4047M:RA07H4047M101_HORIZ"
 			(at 392.43 232.08 0)
 			(effects
 				(font
@@ -13183,7 +13442,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 			(at 309.88 96.52 0)
 			(effects
 				(font
@@ -13253,7 +13512,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:SMA_BAT_Wireless_BWSMA-KWE-Z001"
 			(at 387.35 162.56 0)
 			(effects
 				(font
@@ -13262,7 +13521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8600772178468225024"
 			(at 387.35 162.56 0)
 			(effects
 				(font
@@ -13273,6 +13532,15 @@
 		)
 		(property "Description" "Antenna with extra pin for shielding"
 			(at 384.81 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7498154"
+			(at 384.81 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14994,7 +15262,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 318.77 92.71 0)
 			(effects
 				(font
@@ -15038,7 +15306,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 344.17 142.24 0)
+		(at 340.36 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15046,7 +15314,7 @@
 		(dnp no)
 		(uuid "f20d4bbc-f8ac-4b21-87fd-a289b030a46f")
 		(property "Reference" "#PWR04"
-			(at 344.17 146.05 0)
+			(at 340.36 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15055,7 +15323,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 343.916 138.938 0)
+			(at 340.106 138.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15063,7 +15331,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 344.17 142.24 0)
+			(at 340.36 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15072,7 +15340,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 344.17 142.24 0)
+			(at 340.36 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15081,7 +15349,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 344.17 142.24 0)
+			(at 340.36 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)

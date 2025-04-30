@@ -1,4 +1,4 @@
-23860777600076531
+23862523629601482
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64700,8 +64700,8 @@ Yellow 5381 Series LED
 0
 2
 2
-LM75BDP118
-SOP65P490X110-8N
+MCP41010
+SOIC127P599X175-8N
 
 
 0
@@ -85588,6 +85588,13 @@ Integrated Circuit
 0
 4
 4
+RA07H4047M
+RA07H4047M101_HORIZ
+
+
+0
+7
+7
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf

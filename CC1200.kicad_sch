@@ -245,126 +245,6 @@
 				)
 			)
 		)
-		(symbol "+3.3V_4"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_4_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_4_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "+3.3V_5"
 			(power)
 			(pin_numbers hide)
@@ -2495,6 +2375,102 @@
 				)
 			)
 		)
+		(symbol "GND_4"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_4_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_4_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "GND_5"
 			(power)
 			(pin_numbers hide)
@@ -4481,7 +4457,7 @@
 				)
 			)
 		)
-		(symbol "Sensor_Temperature:PT1000"
+		(symbol "Sensor_Temperature:PT100"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -4497,7 +4473,7 @@
 					)
 				)
 			)
-			(property "Value" "PT1000"
+			(property "Value" "PT100"
 				(at 3.175 0 90)
 				(effects
 					(font
@@ -4523,7 +4499,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "PT1000 platinum temperature sensor (RTD)"
+			(property "Description" "PT100 platinum temperature sensor (RTD)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4550,7 +4526,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "PT1000_0_1"
+			(symbol "PT100_0_1"
 				(arc
 					(start -3.048 2.159)
 					(mid -3.0495 2.3143)
@@ -4696,7 +4672,7 @@
 					)
 				)
 			)
-			(symbol "PT1000_1_1"
+			(symbol "PT100_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -5312,6 +5288,12 @@
 		(uuid "5aa0a7f7-f979-49df-a75e-7d634c60eedf")
 	)
 	(junction
+		(at 300.99 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "612a81f7-59c8-4a8c-8de6-72db79be4699")
+	)
+	(junction
 		(at 179.07 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5322,6 +5304,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70b0c011-3efa-4d88-8e9a-fe8541c15e53")
+	)
+	(junction
+		(at 290.83 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "732905ea-51c7-49fa-89be-6655c5ee7c48")
 	)
 	(junction
 		(at 147.32 100.33)
@@ -6623,6 +6611,16 @@
 	)
 	(wire
 		(pts
+			(xy 300.99 93.98) (xy 300.99 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95ec195e-9a34-4c44-98d5-b7a8b86b6461")
+	)
+	(wire
+		(pts
 			(xy 276.86 93.98) (xy 276.86 91.44)
 		)
 		(stroke
@@ -7143,6 +7141,16 @@
 	)
 	(wire
 		(pts
+			(xy 308.61 86.36) (xy 308.61 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d572d319-8587-4197-bb4e-de9ef032a53c")
+	)
+	(wire
+		(pts
 			(xy 34.29 90.17) (xy 64.77 90.17)
 		)
 		(stroke
@@ -7220,6 +7228,16 @@
 			(type default)
 		)
 		(uuid "dbfbf635-0f7a-4133-bc23-b50504f80ac5")
+	)
+	(wire
+		(pts
+			(xy 300.99 86.36) (xy 290.83 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df61920f-5421-4ce8-9880-21495a8a90f5")
 	)
 	(wire
 		(pts
@@ -7563,7 +7581,7 @@
 		)
 		(uuid d6f955c3-2aee-4f37-8a65-7bf11f6673d1)
 	)
-	(text "*RTD1000 1206 is very low on stock, \nmay need to replace with something else\nif it goes out of stock, such as a more \ncomplicated sensor or ic.\nAlso may want to swap VD orientation."
+	(text "*RTD100 0603 is low on stock (~250), \nmay need to replace with something else\nif it goes out of stock, such as a more \ncomplicated sensor or ic.\nAlso may want to swap VD orientation."
 		(exclude_from_sim no)
 		(at 382.524 35.56 0)
 		(effects
@@ -8609,10 +8627,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "198fe219-2b1b-420d-b585-48e214a407ea")
-		(property "Reference" "U5"
-			(at 293.0241 83.82 0)
+		(property "Reference" "DPOT"
+			(at 276.86 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8621,7 +8638,7 @@
 			)
 		)
 		(property "Value" "MCP41010"
-			(at 293.0241 86.36 0)
+			(at 276.86 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8683,7 +8700,7 @@
 		(instances
 			(project ""
 				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35/dfcafdf4-f213-4518-865d-ab9ee2b88e54"
-					(reference "U5")
+					(reference "DPOT")
 					(unit 1)
 				)
 			)
@@ -9599,6 +9616,162 @@
 			(project "rocketBeaconModule"
 				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35/dfcafdf4-f213-4518-865d-ab9ee2b88e54"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 304.8 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41da1c32-0abb-4494-99e1-bc61a4383f93")
+		(property "Reference" "C39"
+			(at 306.832 89.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 307.086 82.804 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 308.61 85.3948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680"
+			(at 304.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 304.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 304.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc3bfab8-49bd-4870-8c31-b1c78af80629")
+		)
+		(pin "2"
+			(uuid "e82db1e9-62bf-4134-88ce-e801465f0ee0")
+		)
+		(instances
+			(project "rocketBeaconModule"
+				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35/dfcafdf4-f213-4518-865d-ab9ee2b88e54"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:PT100")
+		(at 361.95 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42565d82-4f11-4b59-8de9-234cfc817a84")
+		(property "Reference" "TH1"
+			(at 354.33 41.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PT100"
+			(at 354.33 43.942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 361.95 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588899961215307776"
+			(at 361.95 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PT100 platinum temperature sensor (RTD)"
+			(at 361.95 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C141518"
+			(at 361.95 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4cdf29cd-f782-4637-b3d1-999918e866d4")
+		)
+		(pin "2"
+			(uuid "4b87b1fb-5fd3-4d25-b9f5-244fc8908efe")
+		)
+		(instances
+			(project ""
+				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35/dfcafdf4-f213-4518-865d-ab9ee2b88e54"
+					(reference "TH1")
 					(unit 1)
 				)
 			)
@@ -13565,6 +13738,74 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_4")
+		(lib_id "power:GND")
+		(at 308.61 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6d56bd2-9f39-42bb-86cc-073d3aa4bfdb")
+		(property "Reference" "#PWR017"
+			(at 308.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 308.61 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 308.61 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 308.61 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 308.61 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54e01bef-30e5-41d3-96a4-ded05e91b95f")
+		)
+		(instances
+			(project ""
+				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35/dfcafdf4-f213-4518-865d-ab9ee2b88e54"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 106.68 113.03 270)
 		(unit 1)
@@ -15069,151 +15310,6 @@
 			(project "rocketBeaconModule"
 				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35/dfcafdf4-f213-4518-865d-ab9ee2b88e54"
 					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sensor_Temperature:PT1000")
-		(at 361.95 43.18 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f8efac68-9f68-4c27-9034-b01674830fb2")
-		(property "Reference" "TH1"
-			(at 352.806 41.402 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PT1000"
-			(at 352.806 43.942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 361.95 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588899961207730176"
-			(at 361.95 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "PT1000 platinum temperature sensor (RTD)"
-			(at 361.95 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C141528"
-			(at 361.95 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8890c75b-baa5-4f37-92f2-c7ea1cb43ccb")
-		)
-		(pin "1"
-			(uuid "d280d382-e21c-4f80-997e-29b8dcd9ef33")
-		)
-		(instances
-			(project ""
-				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35/dfcafdf4-f213-4518-865d-ab9ee2b88e54"
-					(reference "TH1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+3.3V_4")
-		(lib_id "power:+3.3V")
-		(at 300.99 93.98 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ffe1abc0-8988-4eca-a5d9-cd5efc2414db")
-		(property "Reference" "#PWR025"
-			(at 297.18 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 303.784 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 300.99 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 300.99 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 300.99 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3238a38c-29a2-4cd6-9181-5a82c341f8ca")
-		)
-		(instances
-			(project ""
-				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35/dfcafdf4-f213-4518-865d-ab9ee2b88e54"
-					(reference "#PWR025")
 					(unit 1)
 				)
 			)

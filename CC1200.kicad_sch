@@ -5,7 +5,7 @@
 	(uuid "76a99eee-57ab-4fec-9577-2b32c40be4cf")
 	(paper "A3")
 	(lib_symbols
-		(symbol "+3.3V_2"
+		(symbol "+3.3V_1"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -66,7 +66,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3.3V_2_0_1"
+			(symbol "+3.3V_1_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -104,7 +104,7 @@
 					)
 				)
 			)
-			(symbol "+3.3V_2_1_1"
+			(symbol "+3.3V_1_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2015,201 +2015,6 @@
 				)
 			)
 		)
-		(symbol "Device:Thermistor_US"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TH"
-				(at 2.54 1.27 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Thermistor_US"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Thermistor, temperature dependent resistor, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res thermistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Thermistor_US_0_1"
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -1.27) (xy 1.905 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 2.54) (xy -1.905 1.27) (xy 1.905 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Thermistor_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "GND_1"
 			(power)
 			(pin_numbers hide)
@@ -2574,6 +2379,102 @@
 				)
 			)
 			(symbol "GND_2_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "GND_3"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_3_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_3_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -4580,6 +4481,260 @@
 				)
 			)
 		)
+		(symbol "Sensor_Temperature:PT1000"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TH"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PT1000"
+				(at 3.175 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.heraeus.com/media/media/group/doc_group/products_1/hst/sot_to/de_15/to_92_d.pdf"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "PT1000 platinum temperature sensor (RTD)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "platinum temperature sensor RTD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?92* PIN?ARRAY* bornier* Terminal?Block* SOD70* R*1206* R*0805*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PT1000_0_1"
+				(arc
+					(start -3.048 2.159)
+					(mid -3.0495 2.3143)
+					(end -3.175 2.413)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.048 2.159)
+					(mid -2.9736 1.9794)
+					(end -2.794 1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.048 2.794)
+					(mid -2.9736 2.6144)
+					(end -2.794 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.794 1.905)
+					(mid -2.6144 1.9794)
+					(end -2.54 2.159)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.794 2.54)
+					(mid -2.4393 2.5587)
+					(end -2.159 2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.794 3.048)
+					(mid -2.9736 2.9736)
+					(end -3.048 2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 2.794)
+					(mid -2.6144 2.9736)
+					(end -2.794 3.048)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.159) (xy -2.54 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.54) (xy -1.778 1.524) (xy 1.778 -1.524) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.683) (xy -2.54 -1.397) (xy -2.794 -2.159) (xy -2.286 -2.159) (xy -2.54 -1.397) (xy -2.54 -1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -3.683) (xy -1.778 -1.397) (xy -2.032 -2.159) (xy -1.524 -2.159) (xy -1.778 -1.397)
+						(xy -1.778 -1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "PT1000_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_names
@@ -5211,6 +5366,12 @@
 		(uuid "91a65680-8745-4cba-8024-14cd5770f6a7")
 	)
 	(junction
+		(at 381 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "997fa4c1-4f0b-4777-a364-45b953fb01ed")
+	)
+	(junction
 		(at 111.76 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5233,12 +5394,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9b23b37-d51b-4037-963f-2bf553ebe1b6")
-	)
-	(junction
-		(at 372.11 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a9cf963f-bd08-44d7-b645-9d065192ff1c")
 	)
 	(junction
 		(at 149.86 107.95)
@@ -5299,6 +5454,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4ac123e-3f07-4d9a-aea9-fa97538c35c0")
+	)
+	(junction
+		(at 361.95 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e67f1f5b-f8ec-4083-962e-51de9758aec7")
 	)
 	(junction
 		(at 275.59 137.16)
@@ -5439,6 +5600,16 @@
 			(type default)
 		)
 		(uuid "08e316dc-4fb9-4a27-baed-765d4005f6e9")
+	)
+	(wire
+		(pts
+			(xy 381 49.53) (xy 384.81 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09ea9c21-8a3c-4c3b-8e4a-eb4897c44395")
 	)
 	(wire
 		(pts
@@ -5612,6 +5783,16 @@
 	)
 	(wire
 		(pts
+			(xy 381 49.53) (xy 381 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2518980b-e928-493a-8ea3-6162d52f2b0d")
+	)
+	(wire
+		(pts
 			(xy 100.33 97.79) (xy 104.14 97.79)
 		)
 		(stroke
@@ -5659,6 +5840,16 @@
 			(type default)
 		)
 		(uuid "2d82b374-9c21-4b63-954a-e8140c7672d6")
+	)
+	(wire
+		(pts
+			(xy 280.67 93.98) (xy 276.86 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2debb3c9-4118-445a-acef-385f85f2049c")
 	)
 	(wire
 		(pts
@@ -5882,6 +6073,16 @@
 	)
 	(wire
 		(pts
+			(xy 361.95 36.83) (xy 361.95 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47351108-cdb8-4bc3-b081-fb7b164001f5")
+	)
+	(wire
+		(pts
 			(xy 327.66 139.7) (xy 335.28 139.7)
 		)
 		(stroke
@@ -5919,6 +6120,16 @@
 			(type default)
 		)
 		(uuid "51998b47-1b76-40b0-8147-da69d7026db3")
+	)
+	(wire
+		(pts
+			(xy 378.46 49.53) (xy 381 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52e61b23-47fc-4af1-bbf4-03992683184e")
 	)
 	(wire
 		(pts
@@ -6032,6 +6243,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 96.52) (xy 276.86 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61a48f41-cc30-41cf-b353-b4d71d7b369d")
+	)
+	(wire
+		(pts
 			(xy 104.14 86.36) (xy 104.14 90.17)
 		)
 		(stroke
@@ -6049,6 +6270,16 @@
 			(type default)
 		)
 		(uuid "62faeaeb-ecd0-47d6-97cf-de8b076a522c")
+	)
+	(wire
+		(pts
+			(xy 274.32 99.06) (xy 280.67 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66a81544-8d51-4c20-b3ae-fb6b3c3c2732")
 	)
 	(wire
 		(pts
@@ -6392,6 +6623,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 93.98) (xy 276.86 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "961b2f0d-bf73-4e6a-89db-49fb457c4968")
+	)
+	(wire
+		(pts
 			(xy 264.16 127) (xy 264.16 130.81)
 		)
 		(stroke
@@ -6592,6 +6833,16 @@
 	)
 	(wire
 		(pts
+			(xy 361.95 46.99) (xy 361.95 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2f0259a-7750-4336-a018-24556bfb3e5e")
+	)
+	(wire
+		(pts
 			(xy 100.33 101.6) (xy 105.41 101.6)
 		)
 		(stroke
@@ -6599,16 +6850,6 @@
 			(type default)
 		)
 		(uuid "b410e3f0-428c-4c48-9716-bedbdea4b1e4")
-	)
-	(wire
-		(pts
-			(xy 359.41 72.39) (xy 364.49 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5d41d34-8b8b-4481-bd3d-dac4f662a407")
 	)
 	(wire
 		(pts
@@ -6649,6 +6890,26 @@
 			(type default)
 		)
 		(uuid "b7952cfd-c93e-417c-8207-e94b79ceb4cd")
+	)
+	(wire
+		(pts
+			(xy 280.67 96.52) (xy 276.86 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8141e07-16df-4a55-bca8-83855e2750e1")
+	)
+	(wire
+		(pts
+			(xy 276.86 91.44) (xy 274.32 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9148360-664f-4be3-af87-4f9ecfee21ac")
 	)
 	(wire
 		(pts
@@ -6762,7 +7023,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 74.93) (xy 372.11 72.39)
+			(xy 361.95 52.07) (xy 361.95 49.53)
 		)
 		(stroke
 			(width 0)
@@ -6952,6 +7213,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 95.25) (xy 274.32 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbfbf635-0f7a-4133-bc23-b50504f80ac5")
+	)
+	(wire
+		(pts
 			(xy 64.77 120.65) (xy 59.69 120.65)
 		)
 		(stroke
@@ -7042,7 +7313,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 72.39) (xy 377.19 72.39)
+			(xy 361.95 49.53) (xy 370.84 49.53)
 		)
 		(stroke
 			(width 0)
@@ -7280,15 +7551,27 @@
 		)
 		(uuid "ffce3488-55de-4269-a806-355ed3a7f58f")
 	)
-	(text "*Will connect later, \nhaven't gotten around to it yet\n"
+	(rectangle
+		(start 344.805 29.845)
+		(end 406.4 67.31)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d6f955c3-2aee-4f37-8a65-7bf11f6673d1)
+	)
+	(text "*RTD1000 1206 is very low on stock, \nmay need to replace with something else\nif it goes out of stock, such as a more \ncomplicated sensor or ic.\nAlso may want to swap VD orientation."
 		(exclude_from_sim no)
-		(at 262.636 94.234 0)
+		(at 382.524 35.56 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 		)
-		(uuid "679e4dbe-0846-4bf7-830f-13f09e7cc2d2")
+		(uuid "2c496074-e011-47e5-ab12-991fedbe5a08")
 	)
 	(text "Changed C31 and C36 to 20 pF from 10 pF each based on \nC9010 crystal needing 15 pF load capacitance overall,\nand using equation C1=C2=2*(C_L-C_stray), approximating\nC_stray as 5 pF."
 		(exclude_from_sim no)
@@ -7310,16 +7593,6 @@
 		)
 		(uuid "779e8755-c1a9-4565-8e93-05708ed35c51")
 	)
-	(text "put LPF before adc."
-		(exclude_from_sim no)
-		(at 386.842 69.342 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7e7d22fc-745c-4f59-b565-e5d82bae9765")
-	)
 	(text "1.8 nF -> 1.5 nF (changed from RS)"
 		(exclude_from_sim no)
 		(at 107.696 104.902 0)
@@ -7332,7 +7605,7 @@
 	)
 	(text "keep dpot and op amp close to stm32, far from antenna"
 		(exclude_from_sim no)
-		(at 349.25 33.02 0)
+		(at 343.916 20.828 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7350,15 +7623,15 @@
 		)
 		(uuid "a0ef0514-601c-40cf-9701-21e209c9a815")
 	)
-	(text "*Need a digital temp \nsensor here right? In\nplace of the thermistor\n"
+	(text "TEMPERATURE SENSING"
 		(exclude_from_sim no)
-		(at 354.076 62.484 0)
+		(at 356.616 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "c5c5b1e2-4e98-40fe-af47-cad20ffa791f")
+		(uuid "d9cef2ca-8323-4113-b8ba-72a96bda71d5")
 	)
 	(label "TX"
 		(at 265.43 148.59 0)
@@ -7381,6 +7654,28 @@
 			(justify left bottom)
 		)
 		(uuid "bde234ac-ca8a-4138-a553-0baed3ee1531")
+	)
+	(global_label "SPIDATA"
+		(shape input)
+		(at 274.32 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "081a3176-c8fc-4442-8253-08b5197b2fb0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 263.8357 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "VCTL"
 		(shape input)
@@ -7417,6 +7712,50 @@
 		(uuid "26c6299c-c0eb-4c10-b501-ae60ea507da4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 45.605 78.8194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPICS"
+		(shape input)
+		(at 274.32 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3be68a07-d17c-40fd-978e-fc082a642833")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 265.771 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPICLK"
+		(shape input)
+		(at 274.32 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3e06e797-467d-44cb-b0c3-ed889984730b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 264.6824 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7514,9 +7853,9 @@
 			)
 		)
 	)
-	(global_label "THERMISTORADC"
+	(global_label "TEMPSENSORADC"
 		(shape input)
-		(at 377.19 72.39 0)
+		(at 384.81 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7526,7 +7865,7 @@
 		)
 		(uuid "a2cc1798-f1a0-45fe-aca5-bafe38f9606a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 395.3547 72.39 0)
+			(at 403.7608 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8185,6 +8524,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 381 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1911f320-309a-465f-bcad-5f20a2212a58")
+		(property "Reference" "C38"
+			(at 377.698 57.912 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 384.556 58.166 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 381.9652 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680"
+			(at 381 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 381 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 381 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cb4c2b2-1f34-4da1-b10a-74c8d13646fe")
+		)
+		(pin "2"
+			(uuid "01a251a3-e066-4cc3-83bd-dcfd2d5e2996")
+		)
+		(instances
+			(project "rocketBeaconModule"
+				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35/dfcafdf4-f213-4518-865d-ab9ee2b88e54"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Potentiometer_Digital:MCP41010")
 		(at 290.83 96.52 0)
 		(unit 1)
@@ -8267,6 +8684,72 @@
 			(project ""
 				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35/dfcafdf4-f213-4518-865d-ab9ee2b88e54"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3.3V_1")
+		(lib_id "power:+3.3V")
+		(at 361.95 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19cce81a-4310-4f8e-9d3e-b57d612dbd00")
+		(property "Reference" "#PWR016"
+			(at 361.95 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 361.696 33.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 361.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 361.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e57a1ebe-2847-4667-ad23-7e4786270f81")
+		)
+		(instances
+			(project ""
+				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35/dfcafdf4-f213-4518-865d-ab9ee2b88e54"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -9558,7 +10041,7 @@
 	(symbol
 		(lib_name "GND_6")
 		(lib_id "power:GND")
-		(at 372.11 82.55 0)
+		(at 361.95 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9567,7 +10050,7 @@
 		(fields_autoplaced yes)
 		(uuid "4bae4fa8-f0e6-4d0d-82dd-0f835e318f1d")
 		(property "Reference" "#PWR024"
-			(at 372.11 88.9 0)
+			(at 361.95 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9576,7 +10059,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 372.11 87.63 0)
+			(at 361.95 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9585,7 +10068,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 372.11 82.55 0)
+			(at 361.95 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9594,7 +10077,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 372.11 82.55 0)
+			(at 361.95 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9603,7 +10086,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 372.11 82.55 0)
+			(at 361.95 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9850,74 +10333,6 @@
 			(project "rocketBeaconModule"
 				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35/dfcafdf4-f213-4518-865d-ab9ee2b88e54"
 					(reference "C44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Thermistor_US")
-		(at 368.3 72.39 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f447f4a-bc44-4d43-99e7-35d398a6f6bf")
-		(property "Reference" "TH1"
-			(at 368.3 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Thermistor_US"
-			(at 368.3 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 368.3 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 368.3 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Thermistor, temperature dependent resistor, US symbol"
-			(at 368.3 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5463a47e-3408-4788-b55b-3c0a5ba1ea27")
-		)
-		(pin "2"
-			(uuid "717569fd-47e8-4f97-b1af-fa8d30206a12")
-		)
-		(instances
-			(project ""
-				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35/dfcafdf4-f213-4518-865d-ab9ee2b88e54"
-					(reference "TH1")
 					(unit 1)
 				)
 			)
@@ -10361,6 +10776,82 @@
 			(project "rocketBeaconModule"
 				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35/dfcafdf4-f213-4518-865d-ab9ee2b88e54"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 374.65 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63616391-6e22-42c5-a558-2f7a5d43cd7e")
+		(property "Reference" "R14"
+			(at 374.65 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1000"
+			(at 374.65 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 374.904 48.514 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706098733010944"
+			(at 374.65 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 374.65 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 374.65 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f2a57d9-224c-4375-89d6-d6d091cfe767")
+		)
+		(pin "2"
+			(uuid "cb248f47-84d7-4c38-970b-91dd20c03c74")
+		)
+		(instances
+			(project "rocketBeaconModule"
+				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35/dfcafdf4-f213-4518-865d-ab9ee2b88e54"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -11016,73 +11507,6 @@
 			(project "rocketBeaconModule"
 				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35/dfcafdf4-f213-4518-865d-ab9ee2b88e54"
 					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+3.3V_2")
-		(lib_id "power:+3.3V")
-		(at 359.41 72.39 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "87e0e862-3400-445c-a010-623dc2fe414e")
-		(property "Reference" "#PWR021"
-			(at 363.22 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 356.616 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 359.41 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 359.41 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 359.41 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9e9942ab-19bb-4f10-bb40-f0dd56589968")
-		)
-		(instances
-			(project ""
-				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35/dfcafdf4-f213-4518-865d-ab9ee2b88e54"
-					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -13418,16 +13842,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 372.11 78.74 0)
+		(at 361.95 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dc3dbb05-bd38-4936-97f2-422b8d97ebc0")
 		(property "Reference" "R2"
-			(at 374.65 77.4699 0)
+			(at 364.49 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13436,7 +13859,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 374.65 80.0099 0)
+			(at 364.49 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13445,7 +13868,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 373.126 78.994 90)
+			(at 362.966 56.134 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13454,7 +13877,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705907481001984"
-			(at 372.11 78.74 0)
+			(at 361.95 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13463,7 +13886,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 372.11 78.74 0)
+			(at 361.95 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13472,7 +13895,7 @@
 			)
 		)
 		(property "LCSC" "C25076"
-			(at 372.11 78.74 0)
+			(at 361.95 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14171,6 +14594,74 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_3")
+		(lib_id "power:GND")
+		(at 381 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7239988-408d-450f-9927-0bd52d341c12")
+		(property "Reference" "#PWR015"
+			(at 381 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 381 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 381 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 381 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "854c04e3-4d64-4bab-bd26-50cf1fea499c")
+		)
+		(instances
+			(project ""
+				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35/dfcafdf4-f213-4518-865d-ab9ee2b88e54"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 45.72 124.46 0)
 		(unit 1)
@@ -14578,6 +15069,84 @@
 			(project "rocketBeaconModule"
 				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35/dfcafdf4-f213-4518-865d-ab9ee2b88e54"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:PT1000")
+		(at 361.95 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8efac68-9f68-4c27-9034-b01674830fb2")
+		(property "Reference" "TH1"
+			(at 352.806 41.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PT1000"
+			(at 352.806 43.942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 361.95 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588899961207730176"
+			(at 361.95 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PT1000 platinum temperature sensor (RTD)"
+			(at 361.95 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C141528"
+			(at 361.95 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8890c75b-baa5-4f37-92f2-c7ea1cb43ccb")
+		)
+		(pin "1"
+			(uuid "d280d382-e21c-4f80-997e-29b8dcd9ef33")
+		)
+		(instances
+			(project ""
+				(path "/4108571e-8c4c-4eba-a51f-04b21c4cec35/dfcafdf4-f213-4518-865d-ab9ee2b88e54"
+					(reference "TH1")
 					(unit 1)
 				)
 			)

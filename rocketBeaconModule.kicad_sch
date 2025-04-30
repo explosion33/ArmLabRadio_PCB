@@ -4475,10 +4475,6 @@
 		(uuid "fbf7be7a-34f2-4720-9a5b-50fe6cdd44bb")
 	)
 	(no_connect
-		(at 118.11 88.9)
-		(uuid "1d7419f5-3514-4fe2-872c-bbf44d6d1250")
-	)
-	(no_connect
 		(at 24.13 166.37)
 		(uuid "1ef1c693-d1f9-46b4-bcdf-c971f4490090")
 	)
@@ -4497,10 +4493,6 @@
 	(no_connect
 		(at 118.11 71.12)
 		(uuid "36786b6f-485f-4579-8031-232b4197dc74")
-	)
-	(no_connect
-		(at 118.11 91.44)
-		(uuid "36786b6f-485f-4579-8031-232b4197dc75")
 	)
 	(no_connect
 		(at 240.03 114.808)
@@ -4529,10 +4521,6 @@
 	(no_connect
 		(at 240.03 130.048)
 		(uuid "a990fb7e-8eb0-445b-b4fd-5376d68770b5")
-	)
-	(no_connect
-		(at 118.11 86.36)
-		(uuid "b83bde73-a8a4-4fa6-8ca5-54a0a20d961e")
 	)
 	(no_connect
 		(at 240.03 132.588)
@@ -4672,7 +4660,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 81.28) (xy 118.11 81.28)
+			(xy 115.57 80.01) (xy 116.84 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4922,6 +4910,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 91.44) (xy 114.3 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f8ae8f7-7fb9-4774-8955-fb72ad67956b")
+	)
+	(wire
+		(pts
 			(xy 160.02 86.36) (xy 151.13 86.36)
 		)
 		(stroke
@@ -4929,6 +4927,16 @@
 			(type default)
 		)
 		(uuid "2fb1c33b-5783-4f05-a3f4-69d3d4c5020c")
+	)
+	(wire
+		(pts
+			(xy 114.3 88.9) (xy 118.11 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32dd1721-5793-4340-8fd5-d6ea6b5a7e49")
 	)
 	(wire
 		(pts
@@ -5039,6 +5047,16 @@
 			(type default)
 		)
 		(uuid "3e721791-ad23-4e4b-92d0-88fdb6cf6cb1")
+	)
+	(wire
+		(pts
+			(xy 111.76 87.63) (xy 114.3 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4068bcc8-7313-43c3-9610-8c92151315a5")
 	)
 	(polyline
 		(pts
@@ -5182,7 +5200,17 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 77.47) (xy 116.84 77.47)
+			(xy 116.84 80.01) (xy 116.84 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "508d00c7-58cf-45f5-8b1b-0a352dbdb3a2")
+	)
+	(wire
+		(pts
+			(xy 115.57 76.2) (xy 116.84 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5199,6 +5227,16 @@
 			(type default)
 		)
 		(uuid "51c97226-1d56-4e42-918a-447061c043fd")
+	)
+	(wire
+		(pts
+			(xy 114.3 86.36) (xy 118.11 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59f948fa-3b1d-4885-951e-0f131d91e91a")
 	)
 	(wire
 		(pts
@@ -5349,6 +5387,16 @@
 			(type default)
 		)
 		(uuid "671f9c36-612c-4d80-9d10-4612a540ee8b")
+	)
+	(wire
+		(pts
+			(xy 116.84 81.28) (xy 118.11 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a024048-158d-4d81-8900-7d283748beca")
 	)
 	(wire
 		(pts
@@ -5602,6 +5650,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 83.82) (xy 114.3 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8784da30-0ffa-4cac-9da7-20af3d791990")
+	)
+	(wire
+		(pts
 			(xy 153.67 30.48) (xy 153.67 33.02)
 		)
 		(stroke
@@ -5722,6 +5780,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 90.17) (xy 114.3 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ebf61a6-099b-4276-a28b-2277171dd61f")
+	)
+	(wire
+		(pts
 			(xy 151.13 109.22) (xy 168.91 109.22)
 		)
 		(stroke
@@ -5779,6 +5847,26 @@
 			(type default)
 		)
 		(uuid "a9b718c5-4a96-4f2f-99a8-ca52589b133f")
+	)
+	(wire
+		(pts
+			(xy 118.11 91.44) (xy 114.3 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9f9db1e-368d-4437-bbd1-3b495771b15a")
+	)
+	(wire
+		(pts
+			(xy 114.3 87.63) (xy 114.3 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac042e46-7e96-4f26-83ff-2a342d2e05f7")
 	)
 	(wire
 		(pts
@@ -6072,7 +6160,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 77.47) (xy 116.84 78.74)
+			(xy 116.84 76.2) (xy 116.84 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6817,7 +6905,7 @@
 	)
 	(global_label "VCTL"
 		(shape input)
-		(at 115.57 81.28 180)
+		(at 115.57 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6827,7 +6915,7 @@
 		)
 		(uuid "25f5e411-a517-4800-967d-2f3f70c4bdff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.2305 81.28 0)
+			(at 108.2305 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6861,7 +6949,7 @@
 	)
 	(global_label "FEM_BYP"
 		(shape input)
-		(at 115.57 77.47 180)
+		(at 115.57 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6871,7 +6959,7 @@
 		)
 		(uuid "3d035637-26b2-43c8-92de-7f99a27fa950")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.2996 77.47 0)
+			(at 104.2996 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6947,6 +7035,50 @@
 			)
 		)
 	)
+	(global_label "SPIDATA"
+		(shape input)
+		(at 109.22 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7489a0c2-8d20-4598-a5c1-d05c6fea84a1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.7357 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPICS"
+		(shape input)
+		(at 111.76 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "782d1eab-6e10-45ce-8eb8-a2dc3ebc4fc2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.211 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RADIO_RESET"
 		(shape input)
 		(at 159.766 96.52 0)
@@ -6991,7 +7123,29 @@
 			)
 		)
 	)
-	(global_label "THERMISTORADC"
+	(global_label "SPICLK"
+		(shape input)
+		(at 114.3 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d1819e34-db26-4c47-9bc2-de7f48154ae7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.6624 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TEMPSENSORADC"
 		(shape input)
 		(at 151.13 76.2 0)
 		(fields_autoplaced yes)
@@ -7003,7 +7157,7 @@
 		)
 		(uuid "eaa06e20-b51c-4c8d-8204-5bd65c5e43c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.2947 76.2 0)
+			(at 170.0808 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)

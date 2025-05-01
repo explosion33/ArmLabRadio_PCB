@@ -10554,6 +10554,7 @@
 	(symbol
 		(lib_id "pspice:INDUCTOR")
 		(at 208.28 148.59 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10561,7 +10562,7 @@
 		(dnp no)
 		(uuid "4c64701e-ec85-4b6f-bed5-5dbbb262c370")
 		(property "Reference" "L7"
-			(at 204.47 146.05 0)
+			(at 212.09 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10569,7 +10570,7 @@
 			)
 		)
 		(property "Value" "43nH"
-			(at 210.82 146.05 0)
+			(at 205.74 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP 4259-63
-D RF switch IC
-K
-F http://www.psemi.com/pdf/datasheets/pe4259ds.pdf
-$ENDCMP
-#
-#End Doc Library

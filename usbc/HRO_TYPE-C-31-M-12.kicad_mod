@@ -156,7 +156,7 @@
 		)
 		(fill solid)
 		(layer "F.Cu")
-		(net 1)
+		(net 2)
 		(uuid "8459235c-0d72-45ea-ae64-d07e717f1773")
 	)
 	(fp_poly
@@ -285,6 +285,7 @@
 		)
 		(fill solid)
 		(layer "B.Cu")
+		(net 2)
 		(uuid "1fb26ebb-724a-43ca-a918-01e5027ebacc")
 	)
 	(fp_poly

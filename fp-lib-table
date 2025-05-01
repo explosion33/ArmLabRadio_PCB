@@ -3,4 +3,7 @@
   (lib (name "CP2102")(type "KiCad")(uri "${KIPRJMOD}/CP2102")(options "")(descr ""))
   (lib (name "usbc")(type "KiCad")(uri "${KIPRJMOD}/usbc")(options "")(descr ""))
   (lib (name "SKY65366")(type "KiCad")(uri "${KIPRJMOD}/SKY65366")(options "")(descr ""))
+  (lib (name "MCP41010")(type "KiCad")(uri "${KIPRJMOD}/MCP41010")(options "")(descr ""))
+  (lib (name "PE4259-63")(type "KiCad")(uri "${KIPRJMOD}/PE4259-63")(options "")(descr ""))
+  (lib (name "RA07H4047m")(type "KiCad")(uri "${KIPRJMOD}/ra07h4047m/RA07H4047m.pretty")(options "")(descr ""))
 )

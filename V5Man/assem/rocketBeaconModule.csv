@@ -1,0 +1,52 @@
+Comment,Designator,Footprint,LCSC Part #
+Antenna_Shield Antenna with extra pin for shielding,AE2,SMA_Amphenol_132134-11_Vertical,C496549
+4.7uF Unpolarized capacitor,C1,C_0603_1608Metric,C71631
+10uF Unpolarized capacitor,C2,C_0603_1608Metric,C19702
+10pF Unpolarized capacitor,"C3,C6,C31,C36",C_0402_1005Metric,C32949
+100nF Unpolarized capacitor,"C4,C5,C7,C8,C13",C_0402_1005Metric,C307331
+2.2uF Unpolarized capacitor,C9,C_0402_1005Metric,C12530
+10nF Unpolarized capacitor,"C10,C20,C22,C69",C_0402_1005Metric,C15195
+1uF Unpolarized capacitor,"C11,C12",C_0402_1005Metric,C52923
+47nF Unpolarized capacitor,"C15,C17,C18,C19,C23,C24,C25,C28,C29",C_0402_1005Metric,C508865
+0.22 uF Unpolarized capacitor,C16,C_0402_1005Metric,C16772
+1.8nF Unpolarized capacitor,C21,C_0402_1005Metric,C162192
+56pF Unpolarized capacitor,C26,C_0402_1005Metric,C335543
+100pF Unpolarized capacitor,"C27,C68,C72,C73",C_0402_1005Metric,C126492
+39pF Unpolarized capacitor,C30,C_0402_1005Metric,C86288
+5.1pF Unpolarized capacitor,"C32,C33,C35",C_0402_1005Metric,C281761
+2.2pF Unpolarized capacitor,C34,C_0402_1005Metric,C159806
+6.2pF Unpolarized capacitor,C37,C_0402_1005Metric,C325456
+0.1uF Unpolarized capacitor,"C67,C70,C71",C_0402_1005Metric,C1525
+PWR_LED Light emitting diode,D1,LED_0402_1005Metric,C5160717
+LED Light emitting diode,"D2,D3",LED_0402_1005Metric,C130722
+TXT Light emitting diode,D4,LED_0402_1005Metric,C136765
+RXT Light emitting diode,D5,LED_0402_1005Metric,C130722
+"EXT1 Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)",EX1,Molex_200528-0080_1x08-1MP_P1.00mm_Horizontal,C132510
+"120R Ferrite bead, small symbol",FB1,L_0603_1608Metric,C85831
+MountingHole Mounting Hole without connection,"H1,H2,H3,H4",MountingHole_2.2mm_M2,
+TYPE-C-31-M-12 ,J1,HRO_TYPE-C-31-M-12,C165948
+"PWR Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)","J2,J4",TestPoint_THTPad_4.0x4.0mm_Drill2.0mm,
+"GND Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)","J3,J5",TestPoint_THTPad_4.0x4.0mm_Drill2.0mm,
+"Conn_01x04_Pin Generic connector, single row, 01x04, script generated",J6,PinHeader_1x04_P2.54mm_Vertical,
+56nH Inductor symbol for simulation only,"L1,L2",C_0402_1005Metric,C167484
+27nH Inductor symbol for simulation only,"L3,L4",C_0402_1005Metric,C12669
+15nH Inductor symbol for simulation only,"L5,L6",C_0402_1005Metric,C27143
+22nH Inductor symbol for simulation only,L7,C_0402_1005Metric,C12670
+43nH Inductor symbol for simulation only,L16,L_0402_1005Metric,C167478
+4259-63 RF switch IC,PE4259-63,SOT-363_SC-70-6,C470892
+5.11k Resistor,"R1,R3,R4,R12",R_0402_1005Metric,C25906
+"1k Resistor, small US symbol","R5,R6,R7,R10,R11,R19",R_0402_1005Metric,C11702
+"56k Resistor, small US symbol",R8,C_0402_1005Metric,C25796
+"18 Resistor, small US symbol",R9,R_0402_1005Metric,C25084
+"0R Resistor, small US symbol",R13,C_0402_1005Metric,C138289
+"100 Resistor, US symbol",R17,R_0402_1005Metric,C25076
+"1000 Resistor, US symbol",R18,R_0402_1005Metric,C21190
+"RA07H4047M-101 RoHS Compliance ,400-470MHz 7W 12.5V, 2 Stage Amp. For PORTABLE RADIO",RFAMP2,RA07h4047M,
+PT100 PT100 platinum temperature sensor (RTD),TH1,R_0603_1608Metric,C141518
+"STM32F401CCU6 ARM Cortex-M4 MCU, 256KB flash, 64KB RAM, 84MHz, 1.7-3.6V, 36 GPIO, UFQFPN-48",U1,QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm,C79861
+"CP2102N-Axx-xQFN20 USB to UART master bridge, QFN-20",U2,WFQFN-20,C969913
+"CC1200 Low-Power, High-Performance RF Transceiver, QFN-32",U3,QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm,C122881
+"MCP41010 Single Digital Potentiometer, SPI interface, 256 taps, 10 kohm",U7,SOIC127P599X175-8N,C136395
+"MCP6001-OT 1MHz, Low-Power Op Amp, SOT-23-5",U8,SOT-23-5,C116490
+"40MHz Four pin crystal, GND on pins 2 and 4",X1,Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm,C9010
+"16MHz Four pin crystal, GND on pins 2 and 4",Y1,Crystal_SMD_3225-4Pin_3.2x2.5mm,C13738

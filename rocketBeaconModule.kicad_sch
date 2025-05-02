@@ -10129,7 +10129,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "c"
+		(property "LCSC Part" "C19702"
 			(at 63.5 27.94 0)
 			(effects
 				(font

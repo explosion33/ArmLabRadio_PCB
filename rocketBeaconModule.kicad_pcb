@@ -115,7 +115,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "V4Man/gbrs/")
+			(outputdirectory "V5Man/")
 		)
 	)
 	(net 0 "")

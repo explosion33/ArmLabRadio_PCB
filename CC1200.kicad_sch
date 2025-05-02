@@ -7934,7 +7934,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C496549"
+		(property "LCSC Part" "C496549"
 			(at 387.35 165.1 90)
 			(effects
 				(font
@@ -8246,7 +8246,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC Part" "C21190"
 			(at 368.3 38.1 0)
 			(effects
 				(font
@@ -8921,7 +8921,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C470892"
+		(property "LCSC Part" "C470892"
 			(at 318.77 153.67 0)
 			(effects
 				(font
@@ -9942,7 +9942,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C167478"
+		(property "LCSC Part" "C167478"
 			(at 189.23 148.59 0)
 			(effects
 				(font
@@ -10823,7 +10823,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C136395"
+		(property "LCSC Part" "C136395"
 			(at 293.37 99.06 0)
 			(effects
 				(font
@@ -11509,7 +11509,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC Part" "C1525"
 			(at 307.34 88.9 0)
 			(effects
 				(font
@@ -11720,6 +11720,15 @@
 			)
 		)
 		(property "Description" "1MHz, Low-Power Op Amp, SOT-23-5"
+			(at 335.28 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C116490"
 			(at 335.28 110.49 0)
 			(effects
 				(font
@@ -12092,7 +12101,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25076"
+		(property "LCSC Part" "C25076"
 			(at 355.6 44.45 0)
 			(effects
 				(font
@@ -13345,7 +13354,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC Part" "C1525"
 			(at 374.65 44.45 0)
 			(effects
 				(font
@@ -13583,7 +13592,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C141518"
+		(property "LCSC Part" "C141518"
 			(at 355.6 31.75 0)
 			(effects
 				(font
